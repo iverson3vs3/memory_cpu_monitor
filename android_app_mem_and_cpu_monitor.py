@@ -35,7 +35,7 @@ def get_CPUinfo(package):
     return float_cpu
 
 #绘制内存曲线
-#package为被测应用的包名，如com.cmcc.iot.andmu；endtime为打多少个点,如50；space为每个点之间的间隔，单位为秒，如5；
+#package为被测应用的包名，如com.tencent.qq；endtime为打多少个点,如50；space为每个点之间的间隔，单位为秒，如5；
 #color为曲线的颜色，b蓝色、g绿色、r红色、y黄色、k黑色、w白色
 def draw_Memory_and_CPU_Line(package,endtime,space,color):
     time_axis_mem=[]
